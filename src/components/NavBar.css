@@ -1,0 +1,49 @@
+/* NavBar.css */
+
+/* Main navigation bar container */
+.navbar {
+    display: flex;
+    width:100%;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005271;
+    color: #fff;
+    padding: 10px 20px;
+  }
+   
+  /* Company title style */
+  .company-title {
+    font-size: 24px;
+    font-weight: bold;
+    left: 30px;
+  }
+  
+  /* Hamburger menu icon style */
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Navigation options style */
+  .nav-options {
+    display: flex;
+    gap: 20px;
+    left:30px;
+  }
+  
+  /* Style for individual navigation links */
+  .nav-options a {
+    text-decoration: none;
+    left:30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Style for navigation links on hover */
+  .nav-options a:hover {
+    color: #ff9900; /* Change the color on hover */
+  }
+  
